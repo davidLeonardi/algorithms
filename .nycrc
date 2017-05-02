@@ -1,0 +1,17 @@
+{
+	"include": [
+      "js/**/*.js"
+    ],
+    "exclude": [
+
+    ],
+
+    "all":true,
+    "sourceMap": false,
+    "instrument": true,
+    "reporter": [
+        "lcov",
+        "text-summary"
+    ],
+    "report-dir": "coverage"
+}

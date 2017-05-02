@@ -9,9 +9,16 @@
   },
   "author": "David Leonardi",
   "license": "MIT",
+  "scripts": {
+    "test": "nyc --reporter=lcov mocha",
+    "test:unit": "mocha"
+},
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
-    "eslint-config-google": "^0.7.1"
+    "eslint-config-google": "^0.7.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.3.0",
+    "nyc": "^10.3.0"
   }
 }
