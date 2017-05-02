@@ -1,0 +1,17 @@
+{
+  "name": "Algorithms",
+  "version": "1.0.0",
+  "description": "A collection of Algorithms implemented in Javascript",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sethx/algorithms.git"
+  },
+  "author": "David Leonardi",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-google": "^0.7.1"
+  }
+}
